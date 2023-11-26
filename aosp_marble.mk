@@ -26,3 +26,5 @@ PRODUCT_NAME := aosp_marble
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+CUSTOM_BUILD_TYPE := Official
