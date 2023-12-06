@@ -226,6 +226,9 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Security
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/sm8450/SEPolicy.mk
 
